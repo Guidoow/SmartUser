@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "smartuser"
+version = "0.0.1"
+authors = [
+  { name="Guido Moran", email="guidomoran.ap@gmail.com" },
+]
+description = "A multi purpose lite module that allows you to work with SQLite databases to manage users in a few seconds"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Guidoow/smartuser"
+"Bug Tracker" = "https://github.com/Guidoow/smartuser/issues"
